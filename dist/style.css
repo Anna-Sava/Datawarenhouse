@@ -153,7 +153,7 @@ body .gradient {
 
 .main-header {
   height: 810px;
-  background-image: url(/assets/backgrounds/section_top.svg);
+  background-image: url(../assets/backgrounds/section_top.svg);
   background-position-x: 72%;
   background-position-y: 105%;
   background-size: 43%;
@@ -167,6 +167,8 @@ body .gradient {
 .text-content p {
   color: #4b5d68;
   margin-top: 64px;
+  max-height: 110px;
+  overflow: hidden;
 }
 
 .text-content .top__description {
@@ -180,7 +182,7 @@ body .gradient {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-top: 100px;
-  background-image: url("/assets/backgrounds/section_storage_bank.svg");
+  background-image: url(../assets/backgrounds/section_storage_bank.svg);
   background-repeat: no-repeat;
   background-position: left 50%;
 }
@@ -219,21 +221,21 @@ body .gradient {
 }
 
 .item--1 {
-  background: url("/assets/backgrounds/item1.png");
+  background: url(../assets/backgrounds/item1.png);
   background-repeat: no-repeat;
   background-position-x: right;
 }
 
 .item--2 {
-  background-image: url("/assets/backgrounds/item2.png");
+  background-image: url(../assets/backgrounds/item2.png);
 }
 
 .item--3 {
-  background-image: url("/assets/backgrounds/item3.png");
+  background-image: url(../assets/backgrounds/item3.png);
 }
 
 .item--4 {
-  background-image: url("/assets/backgrounds/item4.png");
+  background-image: url(../assets/backgrounds/item4.png);
 }
 
 .grid-box {
@@ -286,27 +288,85 @@ body .gradient {
 
 .basic-testimonials {
   background-color: #9c69e2;
-  height: 400px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  height: 709px;
+  position: relative;
   margin-bottom: 100px;
 }
 
+.basic-testimonials p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  color: #4b5d68;
+}
+
+.basic-testimonials h3 {
+  top: 109px;
+  left: 91px;
+  position: absolute;
+  color: white;
+}
+
 .basic-testimonials .comment {
-  width: 400px;
-  height: 200px;
+  position: absolute;
+  top: 242px;
+  left: 237px;
+  width: 645px;
+  height: 330px;
   background-color: white;
+  -webkit-box-shadow: 0px 20px 0px 0px rgba(138, 86, 219, 0.3);
+          box-shadow: 0px 20px 0px 0px rgba(138, 86, 219, 0.3);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.comment__item {
+  margin: 90px 90px 20px 0;
+}
+
+.comment__item-text {
+  margin-top: 18px;
+}
+
+.comment__item .name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+
+.comment__item .site {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.01em;
+  color: #9c69e2;
+}
+
+.comment__icon {
+  margin: 68px 30px 20px 70px;
 }
 
 .basic--try {
