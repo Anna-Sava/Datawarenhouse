@@ -134,7 +134,7 @@ body {
 }
 .main-header {
   height: 810px;
-  background-image: url(./assets/backgrounds/section_top.svg);
+  background-image: url(../assets/backgrounds/section_top.svg);
   background-position-x: 72%;
   background-position-y: 105%;
   background-size: 43%;
@@ -163,7 +163,7 @@ body {
   justify-content: flex-end;
   margin-top: 100px;
 
-  background-image: url("./assets/backgrounds/section_storage_bank.svg");
+  background-image: url(../assets/backgrounds/section_storage_bank.svg);
   background-repeat: no-repeat;
   background-position: left 50%;
 
@@ -191,18 +191,18 @@ body {
   background-repeat: no-repeat;
   background-position-x: right;
   &--1 {
-    background: url("./assets/backgrounds/item1.png");
+    background: url(../assets/backgrounds/item1.png);
     background-repeat: no-repeat;
     background-position-x: right;
   }
   &--2 {
-    background-image: url("./assets/backgrounds/item2.png");
+    background-image: url(../assets/backgrounds/item2.png);
   }
   &--3 {
-    background-image: url("./assets/backgrounds/item3.png");
+    background-image: url(../assets/backgrounds/item3.png);
   }
   &--4 {
-    background-image: url("./assets/backgrounds/item4.png");
+    background-image: url(../assets/backgrounds/item4.png);
   }
 }
 .grid-box {
