@@ -151,6 +151,8 @@ body {
   p {
     color: #4b5d68;
     margin-top: 64px;
+    max-height: 110px;
+    overflow: hidden;
   }
   .top__description {
     width: 63%;
@@ -247,19 +249,73 @@ body {
 
 .basic-testimonials {
   background-color: #9c69e2;
-  height: 400px;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 709px;
+  position: relative;
   margin-bottom: 100px;
 
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #4b5d68;
+  }
+
+  h3 {
+    top: 109px;
+    left: 91px;
+    position: absolute;
+    color: white;
+  }
+
   .comment {
-    width: 400px;
-    height: 200px;
+    position: absolute;
+    top: 242px;
+    left: 237px;
+    width: 645px;
+    height: 330px;
     background-color: white;
+    box-shadow: 0px 20px 0px 0px rgba(138, 86, 219, 0.3);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
   }
 }
+.comment__item {
+  margin: 90px 90px 20px 0;
+
+  &-text {
+    margin-top: 18px;
+  }
+
+  .name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+  }
+
+  .site {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #9c69e2;
+  }
+}
+.comment__icon {
+  margin: 68px 30px 20px 70px;
+}
+
 
 .basic--try {
   display: flex;
