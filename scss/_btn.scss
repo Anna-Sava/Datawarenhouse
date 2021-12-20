@@ -1,0 +1,36 @@
+.btn {
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: none;
+    height: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+  
+    letter-spacing: 0.005em;
+  
+    &--request {
+      width: 210px;
+      color: #212353;
+      background: #ffffff;
+  
+      .arrow {
+        z-index: 5;
+      }
+    }
+  
+    &--link {
+      color: white;
+      padding: 1.2em 2.3em;
+  
+    }
+  
+    i {
+      color: #9b69e2;
+  
+      width: 30px;
+    }
+  }
+  

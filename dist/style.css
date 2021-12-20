@@ -54,6 +54,9 @@ body .gradient {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
@@ -63,6 +66,7 @@ body .gradient {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  height: 35px;
 }
 
 .logo img {
@@ -80,7 +84,7 @@ body .gradient {
 
 .navigation__li {
   list-style: none;
-  margin-right: 50px;
+  margin-right: 43px;
 }
 
 .navigation__li a {
@@ -99,40 +103,6 @@ body .gradient {
   color: #212353;
 }
 
-.btn {
-  -webkit-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-          box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-  border-radius: 50px;
-  border: none;
-  height: 60px;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 160%;
-  letter-spacing: 0.005em;
-}
-
-.btn--big {
-  width: 210px;
-  color: #212353;
-  background: #ffffff;
-}
-
-.btn--big .arrow {
-  z-index: 5;
-}
-
-.btn--small {
-  width: 170px;
-  color: white;
-}
-
-.btn i {
-  color: #9b69e2;
-  width: 30px;
-}
-
 .basic {
   width: 100%;
   border-radius: 50px;
@@ -145,10 +115,8 @@ body .gradient {
   width: 100%;
 }
 
-.top .btn--small {
+.top .btn--link {
   background-color: #9c69e2;
-  margin-top: 55px;
-  margin-bottom: 100px;
 }
 
 .main-header {
@@ -167,6 +135,7 @@ body .gradient {
 .text-content p {
   color: #4b5d68;
   margin-top: 64px;
+  margin-bottom: 73px;
   max-height: 110px;
   overflow: hidden;
 }
@@ -181,7 +150,7 @@ body .gradient {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-top: 100px;
+  margin-top: 123px;
   background-image: url(../assets/backgrounds/section_storage_bank.svg);
   background-repeat: no-repeat;
   background-position: left 50%;
@@ -204,7 +173,7 @@ body .gradient {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 100px;
+  margin-top: 62px;
   margin-bottom: 100px;
 }
 
@@ -532,5 +501,39 @@ h4 {
   font-size: 24px;
   line-height: 130%;
   color: #212353;
+}
+
+.btn {
+  -webkit-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+          box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  border: none;
+  height: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.005em;
+}
+
+.btn--request {
+  width: 210px;
+  color: #212353;
+  background: #ffffff;
+}
+
+.btn--request .arrow {
+  z-index: 5;
+}
+
+.btn--link {
+  color: white;
+  padding: 1.2em 2.3em;
+}
+
+.btn i {
+  color: #9b69e2;
+  width: 30px;
 }
 /*# sourceMappingURL=style.css.map */

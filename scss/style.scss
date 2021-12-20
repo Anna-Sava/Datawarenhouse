@@ -47,10 +47,12 @@ body {
   display: flex;
   justify-content: space-between;
   width: 50%;
+  align-items: center;
 }
 .logo {
   display: flex;
   align-items: flex-end;
+  height: 35px;
 
   img {
     margin-right: 10px;
@@ -62,7 +64,7 @@ body {
 
   &__li {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 43px;
 
     a {
       text-decoration: none;
@@ -82,40 +84,6 @@ body {
     }
   }
 }
-.btn {
-  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-  border-radius: 50px;
-  border: none;
-  height: 60px;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 160%;
-
-  letter-spacing: 0.005em;
-
-  &--big {
-    width: 210px;
-    color: #212353;
-    background: #ffffff;
-
-    .arrow {
-      z-index: 5;
-    }
-  }
-
-  &--small {
-    width: 170px;
-    color: white;
-  }
-
-  i {
-    color: #9b69e2;
-
-    width: 30px;
-  }
-}
 
 .basic {
   width: 100%;
@@ -126,10 +94,9 @@ body {
 .top {
   width: 100%;
 
-  .btn--small {
+  .btn--link {
     background-color: #9c69e2;
-    margin-top: 55px;
-    margin-bottom: 100px;
+   
   }
 }
 .main-header {
@@ -143,14 +110,10 @@ body {
 .text-content {
   width: 52%;
 
-  h1 {
-  }
-  h3 {
-  }
-
   p {
     color: #4b5d68;
     margin-top: 64px;
+    margin-bottom: 73px;
     max-height: 110px;
     overflow: hidden;
   }
@@ -164,7 +127,7 @@ body {
 .basic--pink {
   background-color: rgba(94%, 39%, 72%, 0.15);
   justify-content: flex-end;
-  margin-top: 100px;
+  margin-top: 123px;
 
   background-image: url(../assets/backgrounds/section_storage_bank.svg);
   background-repeat: no-repeat;
@@ -183,7 +146,7 @@ body {
 .basic--features {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 62px;
   margin-bottom: 100px;
 }
 .item {
@@ -418,3 +381,4 @@ a.instagram:hover {
 }
 
 @import "texts-style";
+@import "btn";
