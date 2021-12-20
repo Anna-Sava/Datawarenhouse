@@ -1,6 +1,7 @@
 body,
 h1,
 h3,
+h4,
 p {
   margin: 0;
   padding: 0;
@@ -243,16 +244,31 @@ body .gradient {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-left: 20px;
+  padding-top: 10px;
   width: 50%;
   min-height: 100%;
-  margin-right: 20px;
+  margin-right: 53px;
   position: relative;
   top: 0;
 }
 
 .card p {
-  max-height: 100px;
+  height: 150px;
   overflow: hidden;
+  font-size: 15px;
+}
+
+.card a {
+  color: #212353;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.005em;
 }
 
 .basic-testimonials {
@@ -260,6 +276,7 @@ body .gradient {
   height: 709px;
   position: relative;
   margin-bottom: 100px;
+  margin-top: 152px;
 }
 
 .basic-testimonials p {
@@ -275,6 +292,16 @@ body .gradient {
   left: 91px;
   position: absolute;
   color: white;
+}
+
+.basic-testimonials:after {
+  content: '';
+  position: absolute;
+  background: #E5E5E5;
+  left: 0;
+  bottom: -150px;
+  width: 100%;
+  height: 2px;
 }
 
 .basic-testimonials .comment {
@@ -349,10 +376,27 @@ body .gradient {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 100px;
+  margin-top: 231px;
 }
 
-.basic--try__btns .btn--small {
+.basic--try__text {
+  margin-top: 10px;
+}
+
+.basic--try__text h3 {
+  margin-bottom: 17px;
+}
+
+.basic--try__btns {
+  margin-top: 30px;
+}
+
+.basic--try__btns .btn--link {
   background-color: #f063b8;
+}
+
+form {
+  display: inline;
 }
 
 .footer__grid {
@@ -503,6 +547,17 @@ h4 {
   color: #212353;
 }
 
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+i {
+  color: #9b69e2;
+  width: 30px;
+  margin-left: 5px;
+}
+
 .btn {
   -webkit-box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
           box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
@@ -530,10 +585,5 @@ h4 {
 .btn--link {
   color: white;
   padding: 1.2em 2.3em;
-}
-
-.btn i {
-  color: #9b69e2;
-  width: 30px;
 }
 /*# sourceMappingURL=style.css.map */
