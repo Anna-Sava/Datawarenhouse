@@ -121,7 +121,8 @@ body .gradient {
 }
 
 .top .btn--link:hover {
-  background-color: #623c97;
+  background-color: rgba(156, 105, 226, 0.5);
+  color: #212353;
 }
 
 .main-header {
@@ -210,6 +211,13 @@ body .gradient {
 
 .item--4 {
   background-image: url(../assets/backgrounds/item4.png);
+}
+
+.item a:hover {
+  -webkit-animation: pulse;
+          animation: pulse;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 .grid-box {
@@ -400,7 +408,8 @@ body .gradient {
 }
 
 .basic--try__btns .btn--link:hover {
-  background-color: #df4ea5;
+  background-color: rgba(240, 99, 184, 0.15);
+  color: #212353;
 }
 
 .basic--try__btns .btn--request {
