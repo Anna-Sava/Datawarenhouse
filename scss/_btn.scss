@@ -55,3 +55,21 @@
 
     }
   }
+
+  
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 10px;
+    line-height: 60%;
+    &--request {
+      width: 100px;
+      background-color: #f6fafd;
+    }
+    &--link {
+      padding: 2.5em 2.3em;
+    }
+    i {
+      display: none;
+    }
+  }
+  
