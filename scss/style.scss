@@ -326,20 +326,27 @@ letter-spacing: 0.005em;
     background-color: #f063b8;
    
   }
+  .btn--request {
+    margin-left: 30px;
+  }
 }
 
 form {
   display: inline;
 }
+footer {
+  margin-top: 170px;
+}
 .footer__grid {
   display: grid;
-  height: 600px;
+  
   grid-template-columns: 42% repeat(3, 1fr);
   grid-template-rows: 1fr;
 }
 .footer__item {
   display: flex;
   flex-direction: column;
+  height: 260px;
 
   span {
     font-family: "Montserrat", sans-serif;
@@ -352,13 +359,26 @@ form {
   }
 
   .footer__logo {
+    
     display: flex;
     align-items: center;
+
+    .logo {
+      margin-right: 10px;
+    }
+  }
+  .footer__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-top: 25px;
   }
 
   .footer__menu {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
   }
 
   a {
@@ -384,8 +404,8 @@ form {
     align-self: center;
   }
 }
-
 .footer__media {
+  margin-top: 30px;
   display: flex;
 }
 a.facebook {
@@ -393,9 +413,11 @@ a.facebook {
   display: block;
   width: 50px;
   height: 50px;
+  margin-right: 20px;
 }
 a.facebook:hover {
   background-image: url(../assets/icons/facebook.svg);
+  margin-right: 20px;
 }
 
 a.twitter {
@@ -403,9 +425,11 @@ a.twitter {
   display: block;
   width: 50px;
   height: 50px;
+  margin-right: 20px;
 }
 a.twitter:hover {
   background-image: url(../assets/icons/twitter.svg);
+  margin-right: 20px;
 }
 
 a.instagram {
@@ -413,9 +437,11 @@ a.instagram {
   display: block;
   width: 50px;
   height: 50px;
+  margin-right: 20px;
 }
 a.instagram:hover {
   background-image: url(../assets/icons/instagram.svg);
+  margin-right: 20px;
 }
 
 @import "texts-style";

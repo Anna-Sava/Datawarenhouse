@@ -395,14 +395,21 @@ body .gradient {
   background-color: #f063b8;
 }
 
+.basic--try__btns .btn--request {
+  margin-left: 30px;
+}
+
 form {
   display: inline;
+}
+
+footer {
+  margin-top: 170px;
 }
 
 .footer__grid {
   display: -ms-grid;
   display: grid;
-  height: 600px;
   -ms-grid-columns: 42% (1fr)[3];
       grid-template-columns: 42% repeat(3, 1fr);
   -ms-grid-rows: 1fr;
@@ -417,6 +424,7 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 260px;
 }
 
 .footer__item span {
@@ -437,6 +445,25 @@ form {
           align-items: center;
 }
 
+.footer__item .footer__logo .logo {
+  margin-right: 10px;
+}
+
+.footer__item .footer__information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  margin-top: 25px;
+}
+
 .footer__item .footer__menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -445,6 +472,7 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 30px;
 }
 
 .footer__item a {
@@ -474,6 +502,7 @@ form {
 }
 
 .footer__media {
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -484,10 +513,12 @@ a.facebook {
   display: block;
   width: 50px;
   height: 50px;
+  margin-right: 20px;
 }
 
 a.facebook:hover {
   background-image: url(../assets/icons/facebook.svg);
+  margin-right: 20px;
 }
 
 a.twitter {
@@ -495,10 +526,12 @@ a.twitter {
   display: block;
   width: 50px;
   height: 50px;
+  margin-right: 20px;
 }
 
 a.twitter:hover {
   background-image: url(../assets/icons/twitter.svg);
+  margin-right: 20px;
 }
 
 a.instagram {
@@ -506,10 +539,12 @@ a.instagram {
   display: block;
   width: 50px;
   height: 50px;
+  margin-right: 20px;
 }
 
 a.instagram:hover {
   background-image: url(../assets/icons/instagram.svg);
+  margin-right: 20px;
 }
 
 p {
