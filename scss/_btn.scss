@@ -29,4 +29,29 @@
   
     
   }
-  
+  .btn--request {
+
+    &:active {
+      top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+
+    }
+
+    &:hover {
+      background-color: #ccddff;
+      cursor: pointer;
+
+    }
+    
+  }
+
+  .btn--link {
+   
+    &:active {
+      top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+
+    }
+  }
