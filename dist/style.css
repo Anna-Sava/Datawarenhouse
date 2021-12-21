@@ -408,7 +408,7 @@ body .gradient {
 }
 
 .basic--try__btns .btn--link:hover {
-  background-color: rgba(240, 99, 184, 0.15);
+  background-color: rgba(240, 99, 184, 0.5);
   color: #212353;
 }
 
