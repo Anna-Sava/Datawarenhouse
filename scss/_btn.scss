@@ -1,62 +1,52 @@
 .btn {
-    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-    border-radius: 50px;
-    border: none;
-    height: 60px;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 160%;
-  
-    letter-spacing: 0.005em;
-  
-    &--request {
-      width: 210px;
-      color: #212353;
-      background: #ffffff;
-  
-      .arrow {
-        z-index: 5;
-      }
-    }
-  
-    &--link {
-      color: white;
-      padding: 1.2em 2.3em;
-  
-    }
-  
-    
-  }
-  .btn--request {
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  border: none;
+  height: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
 
-    &:active {
-      top: .1em;
-    left: .1em;
-    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+  letter-spacing: 0.005em;
 
-    }
+  &--request {
+    width: 210px;
+    color: #212353;
+    background: #ffffff;
 
-    &:hover {
-      background-color: #ccddff;
-      cursor: pointer;
-
-    }
-    
-  }
-
-  .btn--link {
-   
-    &:active {
-      top: .1em;
-    left: .1em;
-    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
-
+    .arrow {
+      z-index: 5;
     }
   }
 
-  
+  &--link {
+    color: white;
+    padding: 1.2em 2.3em;
+  }
+}
+.btn--request {
+  &:active {
+    top: 0.1em;
+    left: 0.1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0.05) inset;
+  }
+
+  &:hover {
+    background-color: #ccddff;
+    cursor: pointer;
+  }
+}
+
+.btn--link {
+  &:active {
+    top: 0.1em;
+    left: 0.1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0.05) inset;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .btn {
     font-size: 10px;
@@ -73,4 +63,3 @@
     }
   }
 }
-  

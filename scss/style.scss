@@ -174,15 +174,15 @@ body {
     background-image: url(../assets/backgrounds/item2.png);
     .card__picture {
       top: 68px;
-   
-    left: -260px;
+
+      left: -260px;
     }
   }
   &--3 {
     background-image: url(../assets/backgrounds/item3.png);
     .card__picture {
       top: 120px;
-    left: -260px;
+      left: -260px;
     }
   }
   &--4 {
@@ -225,7 +225,6 @@ body {
   position: relative;
   .card__picture {
     position: absolute;
-    
   }
 }
 
