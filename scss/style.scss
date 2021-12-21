@@ -165,15 +165,32 @@ body {
     background: url(../assets/backgrounds/item1.png);
     background-repeat: no-repeat;
     background-position-x: right;
+    .card__picture {
+      top: 73px;
+      left: -246px;
+    }
   }
   &--2 {
     background-image: url(../assets/backgrounds/item2.png);
+    .card__picture {
+      top: 68px;
+   
+    left: -260px;
+    }
   }
   &--3 {
     background-image: url(../assets/backgrounds/item3.png);
+    .card__picture {
+      top: 120px;
+    left: -260px;
+    }
   }
   &--4 {
     background-image: url(../assets/backgrounds/item4.png);
+    .card__picture {
+      top: 83px;
+      left: -260px;
+    }
   }
 
   a:hover {
@@ -204,6 +221,14 @@ body {
   }
 }
 
+.container {
+  position: relative;
+  .card__picture {
+    position: absolute;
+    
+  }
+}
+
 .card {
   text-decoration: none;
   color: #444;
@@ -213,7 +238,7 @@ body {
   justify-content: space-evenly;
   padding-left: 20px;
   padding-top: 10px;
-  width: 50%;
+  width: 40%;
   min-height: 100%;
   margin-right: 53px;
   position: relative;
